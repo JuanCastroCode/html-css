@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in(polegada), px, pt, pc(paica)
+
+            Medidas Relativas:
+            em -> relativo ao M maiusculo de uma determinada letra
+            ex-> relativo a uma altura x de uma fonte
+            rem-> relativo ao root, a fonte que esta configurada no body
+            vw-> largura do view port, ou seja largura da tela
+            vh -> altura da view port
+            %
+                       
+            */
+            font-size: 0.8em; 
+            font-weight: bold;/*largura da fonte 4 opções lighter, normal, bold e bolder*/
+            /*font-style: italic;*/
+            /*text-decoration: underline;*/
+        }
+
+        h1{
+            /*Shorthand font
+            - font-style font-weight font-size font-family 
+            font-family: 'work Sans', 'Sans-serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nulla harum aut sit pariatur quaerat voluptas, laboriosam tempore necessitatibus, sapiente cupiditate voluptatibus totam odio possimus optio eos quibusdam incidunt odit?
+    </p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aspernatur tempora laudantium inventore voluptates odit. Voluptate mollitia repellendus commodi vel corporis explicabo architecto quo, sed, voluptates, possimus harum recusandae quibusdam!</p>
+    
+    <h2>Subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut enim voluptas esse ratione amet repellendus est quos quo obcaecati, iusto ut quaerat nam. Dolores, officia veniam reprehenderit sint maiores laboriosam.</p>
+</body>
+</html>

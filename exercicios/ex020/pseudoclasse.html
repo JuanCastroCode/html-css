@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Pseudoclasse</title>
+    <style>
+        div{
+            display: inline-block; /*essa configuração de display é pra ficar tudo na mesma linha, já que div por padrão é um abaixo do outro*/
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgb(119, 117, 117);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div:hover{ /*esse dois pontos é pra definir uma pseudoclasse que nada mais é que uma mudança de estado, neste exemplo foi colocado o hover, que significa quando passar o mouse em cima da div, irá mudar de cor*/
+            background-color: rgb(255, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+</body>
+</html>
